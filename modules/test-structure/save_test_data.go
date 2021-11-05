@@ -11,7 +11,6 @@ import (
 
 	"github.com/gruntwork-io/terratest/modules/aws"
 	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/k8s"
 	"github.com/gruntwork-io/terratest/modules/logger"
 
 	"github.com/gruntwork-io/terratest/modules/ssh"
@@ -76,19 +75,6 @@ func formatSshKeyPairPath(testFolder string) string {
 	return FormatTestDataPath(testFolder, "SshKeyPair.json")
 }
 
-// SaveKubectlOptions serializes and saves KubectlOptions into the given folder. This allows you to create a KubectlOptions during setup
-// and reuse that KubectlOptions later during validation and teardown.
-func SaveKubectlOptions(t testing.TestingT, testFolder string, kubectlOptions *k8s.KubectlOptions) {
-	SaveTestData(t, formatKubectlOptionsPath(testFolder), kubectlOptions)
-}
-
-// LoadKubectlOptions loads and unserializes a KubectlOptions from the given folder. This allows you to reuse a KubectlOptions that was
-// created during an earlier setup step in later validation and teardown steps.
-func LoadKubectlOptions(t testing.TestingT, testFolder string) *k8s.KubectlOptions {
-	var kubectlOptions k8s.KubectlOptions
-	LoadTestData(t, formatKubectlOptionsPath(testFolder), &kubectlOptions)
-	return &kubectlOptions
-}
 
 // formatKubectlOptionsPath formats a path to save a KubectlOptions in the given folder.
 func formatKubectlOptionsPath(testFolder string) string {
