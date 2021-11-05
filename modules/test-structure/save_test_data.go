@@ -7,14 +7,15 @@ import (
 	"os"
 	"path/filepath"
 
+	"/Users/karlagarcia/fun/terratest/modules/testing"
+
 	"github.com/gruntwork-io/terratest/modules/aws"
 	"github.com/gruntwork-io/terratest/modules/files"
 	"github.com/gruntwork-io/terratest/modules/k8s"
 	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/packer"
+
 	"github.com/gruntwork-io/terratest/modules/ssh"
 	"github.com/gruntwork-io/terratest/modules/terraform"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 
@@ -35,25 +36,6 @@ func LoadTerraformOptions(t testing.TestingT, testFolder string) *terraform.Opti
 // formatTerraformOptionsPath formats a path to save TerraformOptions in the given folder.
 func formatTerraformOptionsPath(testFolder string) string {
 	return FormatTestDataPath(testFolder, "TerraformOptions.json")
-}
-
-// SavePackerOptions serializes and saves PackerOptions into the given folder. This allows you to create PackerOptions during setup
-// and to reuse that PackerOptions later during validation and teardown.
-func SavePackerOptions(t testing.TestingT, testFolder string, packerOptions *packer.Options) {
-	SaveTestData(t, formatPackerOptionsPath(testFolder), packerOptions)
-}
-
-// LoadPackerOptions loads and unserializes PackerOptions from the given folder. This allows you to reuse a PackerOptions that was
-// created during an earlier setup step in later validation and teardown steps.
-func LoadPackerOptions(t testing.TestingT, testFolder string) *packer.Options {
-	var packerOptions packer.Options
-	LoadTestData(t, formatPackerOptionsPath(testFolder), &packerOptions)
-	return &packerOptions
-}
-
-// formatPackerOptionsPath formats a path to save PackerOptions in the given folder.
-func formatPackerOptionsPath(testFolder string) string {
-	return FormatTestDataPath(testFolder, "PackerOptions.json")
 }
 
 // SaveEc2KeyPair serializes and saves an Ec2KeyPair into the given folder. This allows you to create an Ec2KeyPair during setup
