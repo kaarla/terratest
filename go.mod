@@ -3,7 +3,13 @@ module github.com/gruntwork-io/terratest
 go 1.14
 
 require (
+	github.com/Azure/azure-sdk-for-go v59.1.0+incompatible
+	github.com/Azure/go-autorest/autorest v0.11.22
+	github.com/Azure/go-autorest/autorest/azure/auth v0.5.9
+	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
+	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
 	github.com/go-sql-driver/mysql v1.6.0
+	github.com/gofrs/uuid v4.1.0+incompatible // indirect
 	github.com/gruntwork-io/go-commons v0.8.0
 	github.com/hashicorp/go-multierror v1.1.0
 	// github.com/hashicorp/go-version v1.3.0
@@ -27,6 +33,6 @@ require (
 	//github.com/stretchr/testify v1.7.0
 	github.com/tmccombs/hcl2json v0.3.3
 	github.com/zclconf/go-cty v1.9.1
-	golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734
-	golang.org/x/net v0.0.0-20200301022130-244492dfa37a
+	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110
 )
