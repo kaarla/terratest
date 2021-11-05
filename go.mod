@@ -3,6 +3,11 @@ module github.com/gruntwork-io/terratest
 go 1.14
 
 require (
+	github.com/Azure/azure-sdk-for-go v50.2.0+incompatible
+	github.com/Azure/go-autorest/autorest v0.11.20
+	github.com/Azure/go-autorest/autorest/azure/auth v0.5.8
+	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
+	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/gruntwork-io/go-commons v0.8.0
 	github.com/hashicorp/go-multierror v1.1.0
