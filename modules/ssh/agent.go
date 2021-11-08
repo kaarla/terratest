@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"golang.org/x/crypto/ssh/agent"
 )

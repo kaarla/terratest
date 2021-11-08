@@ -7,7 +7,7 @@ import (
 
 	"/Users/karlagarcia/fun/aws-sdk-go/aws"
 	"/Users/karlagarcia/fun/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

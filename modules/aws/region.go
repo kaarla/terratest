@@ -5,9 +5,9 @@ import (
 
 	"/Users/karlagarcia/fun/aws-sdk-go/aws"
 	"/Users/karlagarcia/fun/aws-sdk-go/service/ec2"
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/random"
+	"github.com/kaarla/terratest/modules/collections"
+	"github.com/kaarla/terratest/modules/logger"
+	"github.com/kaarla/terratest/modules/random"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

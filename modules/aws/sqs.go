@@ -8,7 +8,7 @@ import (
 	"/Users/karlagarcia/fun/aws-sdk-go/aws"
 	"/Users/karlagarcia/fun/aws-sdk-go/service/sqs"
 	"/Users/karlagarcia/fun/uuid"
-	"github.com/gruntwork-io/terratest/modules/logger"
+	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

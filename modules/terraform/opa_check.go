@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tmccombs/hcl2json/convert"
 
-	"github.com/gruntwork-io/terratest/modules/files"
-	"github.com/gruntwork-io/terratest/modules/opa"
+	"github.com/kaarla/terratest/modules/files"
+	"github.com/kaarla/terratest/modules/opa"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

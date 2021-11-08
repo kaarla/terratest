@@ -3,9 +3,9 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terratest/modules/collections"
-	"github.com/gruntwork-io/terratest/modules/retry"
-	"github.com/gruntwork-io/terratest/modules/shell"
+	"github.com/kaarla/terratest/modules/collections"
+	"github.com/kaarla/terratest/modules/retry"
+	"github.com/kaarla/terratest/modules/shell"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

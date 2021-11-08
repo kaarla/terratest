@@ -8,8 +8,8 @@ import (
 	"/Users/karlagarcia/fun/aws-sdk-go/service/autoscaling"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gruntwork-io/terratest/modules/logger"
-	"github.com/gruntwork-io/terratest/modules/retry"
+	"github.com/kaarla/terratest/modules/logger"
+	"github.com/kaarla/terratest/modules/retry"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 
