@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/kaarla/terratest/modules/logger"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 )
 
 // CreateSnsTopic creates an SNS Topic and return the ARN.

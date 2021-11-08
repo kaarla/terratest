@@ -6,7 +6,7 @@ import (
 
 	"github.com/kaarla/terratest/modules/files"
 	"github.com/kaarla/terratest/modules/ssh"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/hashicorp/go-multierror"
 )
 

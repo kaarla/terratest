@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/kaarla/terratest/modules/logger"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/stretchr/testify/require"
 )
 

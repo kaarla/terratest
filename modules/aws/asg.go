@@ -10,7 +10,7 @@ import (
 
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/retry"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 )
 
 type AsgCapacityInfo struct {

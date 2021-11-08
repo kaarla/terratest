@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 )
 
 // Init calls terraform init and return stdout/stderr.

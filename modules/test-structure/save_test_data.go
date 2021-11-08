@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 
 	"github.com/kaarla/terratest/modules/aws"
 	"github.com/kaarla/terratest/modules/files"

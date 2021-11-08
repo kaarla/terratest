@@ -5,7 +5,7 @@ import (
 
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/ssh"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/jinzhu/copier"
 	"github.com/stretchr/testify/require"
 )

@@ -8,7 +8,7 @@ import (
 	"github.com/kaarla/terratest/modules/collections"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/random"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 )
 
 // You can set this environment variable to force Terratest to use a specific region rather than a random one. This is

@@ -8,7 +8,7 @@ import (
 
 	"github.com/kaarla/terratest/modules/collections"
 	"github.com/kaarla/terratest/modules/logger"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"golang.org/x/crypto/ssh"
 )
 

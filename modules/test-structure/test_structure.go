@@ -12,7 +12,7 @@ import (
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/opa"
 	"github.com/kaarla/terratest/modules/terraform"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/stretchr/testify/require"
 )
 

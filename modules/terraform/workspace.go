@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/stretchr/testify/require"
 )
 

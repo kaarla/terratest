@@ -15,7 +15,7 @@ import (
 	"github.com/kaarla/terratest/modules/files"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/retry"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"

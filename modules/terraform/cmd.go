@@ -6,7 +6,7 @@ import (
 	"github.com/kaarla/terratest/modules/collections"
 	"github.com/kaarla/terratest/modules/retry"
 	"github.com/kaarla/terratest/modules/shell"
-	"/Users/karlagarcia/fun/terratest/modules/testing"
+	"github.com/kaarla/terratest/testing"
 )
 
 func generateCommand(options *Options, args ...string) shell.Command {
