@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/ssh"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 )
 
 // Ec2Keypair is an EC2 key pair.

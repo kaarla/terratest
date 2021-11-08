@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/aws/aws-sdk-go/service/lambda"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

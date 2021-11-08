@@ -12,7 +12,7 @@ import (
 
 	"github.com/kaarla/terratest/modules/files"
 	"github.com/kaarla/terratest/modules/opa"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 )
 
 // OPAEval runs `opa eval` with the given option on the terraform files identified in the TerraformDir directory of the

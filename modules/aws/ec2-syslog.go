@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/retry"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 )
 
 // (Deprecated) See the FetchContentsOfFileFromInstance method for a more powerful solution.

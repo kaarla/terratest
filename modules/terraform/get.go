@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 )
 
 // Get calls terraform get and return stdout/stderr.

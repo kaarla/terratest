@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/retry"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )
 

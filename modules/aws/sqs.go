@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/google/uuid"
 	"github.com/kaarla/terratest/modules/logger"
-	"github.com/kaarla/terratest/testing"
+	"github.com/kaarla/terratest/modules/testing"
 )
 
 // CreateRandomQueue creates a new SQS queue with a random name that starts with the given prefix and return the queue URL.
