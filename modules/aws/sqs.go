@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"/Users/karlagarcia/fun/uuid"
+	"github.com/google/uuid"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/testing"
 )
