@@ -5,12 +5,12 @@ import (
 	"os"
 	"time"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/aws/credentials"
-	"/Users/karlagarcia/fun/aws-sdk-go/aws/credentials/stscreds"
-	"/Users/karlagarcia/fun/aws-sdk-go/aws/session"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/iam"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/sts"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
+	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/service/iam"
+	"github.com/aws/aws-sdk-go/service/sts"
 	"github.com/pquerna/otp/totp"
 )
 

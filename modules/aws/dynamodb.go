@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/dynamodb"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )

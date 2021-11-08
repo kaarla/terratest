@@ -3,8 +3,8 @@ package aws
 import (
 	"fmt"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/ecs"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/ecs"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"
 )

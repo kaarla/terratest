@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/sts"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/sts"
 
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )

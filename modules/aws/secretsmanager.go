@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/secretsmanager"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/secretsmanager"
 	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"

@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/kms"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/kms"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )
 

@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/rds"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/rds"
 	_ "github.com/go-sql-driver/mysql"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"

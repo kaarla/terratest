@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/autoscaling"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/stretchr/testify/require"
 
 	"github.com/kaarla/terratest/modules/logger"

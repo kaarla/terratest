@@ -3,8 +3,8 @@ package aws
 import (
 	goerrors "errors"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/ecr"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/gruntwork-io/go-commons/errors"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"

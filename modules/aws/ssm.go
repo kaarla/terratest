@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/ssm"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/kaarla/terratest/modules/logger"
 	"github.com/kaarla/terratest/modules/retry"
 	"/Users/karlagarcia/fun/terratest/modules/testing"

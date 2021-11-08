@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/s3"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/s3/s3manager"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 	"github.com/stretchr/testify/require"

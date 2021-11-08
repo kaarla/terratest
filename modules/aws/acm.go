@@ -1,7 +1,7 @@
 package aws
 
 import (
-	"/Users/karlagarcia/fun/aws-sdk-go/service/acm"
+	"github.com/aws/aws-sdk-go/service/acm"
 
 	"/Users/karlagarcia/fun/terratest/modules/testing"
 )

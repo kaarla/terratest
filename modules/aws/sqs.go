@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"/Users/karlagarcia/fun/aws-sdk-go/aws"
-	"/Users/karlagarcia/fun/aws-sdk-go/service/sqs"
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/service/sqs"
 	"/Users/karlagarcia/fun/uuid"
 	"github.com/kaarla/terratest/modules/logger"
 	"/Users/karlagarcia/fun/terratest/modules/testing"
